@@ -32,3 +32,18 @@ for (var i = 1; i <= cantidadDeGatos; i++) {
     var pasos = "🐾".repeat(cantidadDePasos); 
     console.log("Gato #" + i + ":   🐈" + pasos);
 }
+
+// script_c.js
+
+// Punto c
+console.log("Ejercicio c):");
+
+var cantidadDeGatos = 10;
+var cantidadDePasos = 4;
+
+for (var i = 1; i <= cantidadDeGatos; i++){
+    var gato = (i % 2 == 1) ? "🐈" : "🐈⬛";
+    var pasos = "🐾".repeat(cantidadDePasos);
+
+    console.log("Gato #" + i + ": " + gato + "" + pasos);
+}
