@@ -17,4 +17,18 @@ for (var i = 1; i <= cantidadDeGatos; i++) {
     }
     
     console.log("Gato #" + i + ": " + emoji);
+} 
+
+// script-b.js
+
+// Punto b
+console.log("Ejercicio b):");
+
+var cantidadDeGatos = 5;
+var cantidadDePasos = 3;
+
+
+for (var i = 1; i <= cantidadDeGatos; i++) {
+    var pasos = "🐾".repeat(cantidadDePasos); 
+    console.log("Gato #" + i + ":   🐈" + pasos);
 }
